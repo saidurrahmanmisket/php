@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 50px 0 50px;
+
+}
+.myCard{
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 20px;
+    border: 2px solid rgb(111, 0, 0);
+    border-radius: 10px;
+}
+.cardLeft{
+}
+.cardLeft img{
+    padding: 5px;
+    border-radius: 10px 0 0 10px;
+}
+.cardRight{
+}
